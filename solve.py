@@ -31,7 +31,7 @@ size = 400000
 # (f, name) = ('sqrt(sin(theta)**2+0.01*cos(theta)**2)', 'hippopede0.01')
 # (f, name) = ('sqrt(1-0.75)/sqrt(1-0.75*sin(theta)**2)', 'ellipse0.75')
 # (f, name) = ('1', 'disk')
-(f, name) = ('1-0.4*abs(cos(3*theta))', 'star2')
+# (f, name) = ('1-0.4*abs(cos(3*theta))', 'star')
 
 
 set_log_active(False)
