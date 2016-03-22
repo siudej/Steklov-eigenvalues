@@ -16,10 +16,10 @@ We used [FEniCS](http://fenicsproject.org) to implement the finite element schem
 
 The first image below shows the density of the adaptively refined triangulation for a star shaped domain (blue - many small triangles). One can notice a lot of refinements near the negatively curved boundary. The reentrant corners in the polygonal approximation lead to the loss of smoothness of the eigenfunctions and decreased FEM accuracy. Hence the intense local refinements.
 
-<img src="reports/star_density.png" height="300"/> <img src="reports/hippopede0.01_density.png" height="300"/>
+<img src="reports/star_density.png" height="300"/> <img src="reports/hippopede0.01_density.png" height="250"/>
 
 The hippopede shaped region shows frequent refinements near the narrow part of the domain (reason as above), as well as many small triangles near the round boundary (shape approximation improvements).
 
 Finally, the two images below are examples of the computed eigenvalues.
 
-<img src="reports/regular5.png" height="300"/> <img src="reports/hippopede0.01.png" height="300"/>
+<img src="reports/regular5.png" height="300"/> <img src="reports/hippopede0.01.png" height="250"/>
